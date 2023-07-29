@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+p{
+    text-decoration-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    text-align:left;
+}
+h2{
+    text-align: left;
+    text-decoration-color: rgb(160, 73, 16);
+    text-transform: lowercase;
+
+}
+.login-box {
+    width: 300px;
+    margin: 0 auto;
+    background-image: url('ruta_de_la_imagen');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .login-box h2 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .login-box form {
+    margin-top: 20px;
+  }
+  
+  .login-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .login-box input[type="text"],
+  .login-box input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-box a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  /* Estilos adicionales */
+  

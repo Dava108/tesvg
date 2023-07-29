@@ -1,0 +1,146 @@
+<html>
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Residencia Profesional</title>
+		<link rel="preload" href="css/normalize.css" as="style">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="preload" href="csst/style1.css" as="style">
+		<link href="csst/style1.css" rel="stylesheet">
+		
+		<link rel="stylesheet" href="csst/menu.css">
+	</head>
+	<title>Instrucciones</title>
+	<style>
+		body {
+			font-family: Arial;
+			background-color: #f2f2f2;
+		}
+		h1 {
+			color: rgb(255, 174, 1);
+			text-align: center;
+		}
+		.video-gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 20px;
+		}
+		.video-container {
+			width: 400px;
+			height: 300px;
+			margin: 10px;
+			box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+			overflow: hidden;
+			position: relative;
+			cursor: pointer;
+			transition: transform 0.5s;
+		}
+		.video-container:hover {
+			transform: scale(1.1);
+		}
+		.video-container iframe {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.video-title {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: rgba(0, 0, 0, 0.7);
+			color: #f2f2f2;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 0.5s;
+		}
+		.video-container:hover .video-title {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+
+    <header>
+        <center><div style="margin-top: 20px;" class="logo"><img src="img/sep.png" width="100px" height="40px"><img src="img/nacional.png" width="200px" height="100px"><img src="img/estado.png" width="300px" height="100px"><img src="img/tesvg.png" width="180px" height="100px"><img src="img/edomex1.png" width="130px" height="80px"></div></center>
+        <br>
+    </header>
+    <body>
+        <nav class="menu" id="menu">
+            <div class="contenedor contenedor-botones-menu">
+                <button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+                <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
+            </div>
+    
+            <div class="contenedor contenedor-enlaces-nav">
+                <div class="btn-departamentos" id="btn-departamentos">
+                    <p>Todos los <span>Departamentos</span></p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+    
+                <div class="enlaces">
+                    <a href="Inicio.html">Inicio</a>
+                    <a href="Documentos.html">Documentos</a>
+                    <a href="contacto.html">Registros</a>
+                    <a href="calendario.html">Calendario</a>
+                    <a href="Instrucciones.html">Instrucciones </a>
+                    <a href="convocatoria.html">Convocatoria</a>
+                    <a href="convenios.html">Convenios</a>
+                    <a href="Proyectos.html">Banco de Proyectos </a>
+                    <a href="SiSS.html">Pagina SISS </a>
+    
+                </div>
+            </div>
+        </nav>	   
+    </body>
+    <div class="contenedor sombra">
+		<section id="pricing" class="divider">
+			<h1>Instrucciones</h1>
+                <p>
+                    Los siguientes videos muestran el llenado de los diferentes formatos que se necesitan en el servicio social.
+                </p>
+	<div class="video-gallery">
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/bp96RzfQJbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">LLENADO DEL FORMULARIO DE REGISTRO</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/-KRQISxvfo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">REGISTRO AL SISS</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/gvtsor8ta18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">LLENADO DEL REGISTRO AUTORIZACION</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/zMKCFC6G5mY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">CARTA DE ACEPTACION</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/3jkp8nD32Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">ANEXO TÉCNICO</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/BPoNCw9lkzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">PLAN DE TREBAJO</div>
+		</div>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/CVNndMyaX78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<div class="video-title">CARTA COMPROMISO</div>
+		</div>
+	</div>
+			
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

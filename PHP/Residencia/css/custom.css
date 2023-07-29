@@ -1,0 +1,58 @@
+.pdfobject-container {
+    height: 34rem;
+}
+
+#frame_doc {
+    height: 34rem;
+}
+
+.modal-open .modal {
+    overflow-y: hidden;
+}
+
+.modal-content-custom {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+}
+
+.modal-content-custom a{
+    color: #fff;
+}
+
+.modal-header {
+    height: 48px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 40;
+    border-bottom: none;
+}
+
+.anexo-close-icon {
+    color: hsla(0, 0%, 100%, .6);
+    padding: 9px;
+    position: absolute;			
+    right: 0;
+    top: 0;
+    transition-property: transform, color;
+    transition-duration: .15s;
+}
+
+.anexo-close-icon:hover {
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.modal-footer-custom {
+    text-align: center;
+    color: #fff;
+    height: 80px;
+    margin-top: 1rem;
+}
